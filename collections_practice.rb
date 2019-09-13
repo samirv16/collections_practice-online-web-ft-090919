@@ -23,7 +23,9 @@ array.reverse
 
 end
 
-def kesha_marker(array)
-  array.each{ |elements| elements[2] = "$"}
+def kesha_maker(array)
+  array.each do |elements|
+    elements[2] = "$"
+  end
  
 end
