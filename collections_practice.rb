@@ -24,6 +24,6 @@ array.reverse
 end
 
 def kesha_marker(array)
-   array.each{ |elements| elements[2] = "$"}
+  array.each{ |elements| elements[2] = "$"}
  new_array
 end
