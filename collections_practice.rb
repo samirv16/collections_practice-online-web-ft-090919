@@ -32,7 +32,7 @@ end
 
 def find_a(array)
   
-  array
+  array.map 
   
   .start_with?("a")
   
