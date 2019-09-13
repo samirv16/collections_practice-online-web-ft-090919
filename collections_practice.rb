@@ -45,6 +45,7 @@ end
   
   def add_s(array)
     array.each do |word|
-      word.shift
+      word.push("s")
+    end
     
     end
