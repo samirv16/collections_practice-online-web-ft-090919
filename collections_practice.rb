@@ -44,8 +44,12 @@ end
   
   
   def add_s(array)
-    array.each do |word|
-      word.push("s")
+    array.collect do |word|
+      if word = array[1]
+        array[1]
+      else
+        word.push("s")
+    end
     end
     
     end
