@@ -48,7 +48,7 @@ end
       if array[1] == word
         word
       elsif
-        word.push("s")
+        word + "s"
     end
     end
     
