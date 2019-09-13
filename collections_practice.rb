@@ -41,3 +41,4 @@ end
     array.inject { |sum, element| sum + element}
    
   end
+  
