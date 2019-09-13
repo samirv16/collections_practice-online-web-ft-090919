@@ -32,9 +32,8 @@ end
 
 def find_a(array)
   
-  array.map 
-  
-  .start_with?("a")
+  array.map do |word|
+  if word.start_with?("a")
   
 end
   
