@@ -8,6 +8,6 @@ end
 
 def sort_array_char_count(array)
   
-  array.sort 
+  array.sort { |left, right| left.length <=> right.length }
   
 end
