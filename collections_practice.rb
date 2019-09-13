@@ -22,3 +22,8 @@ def reverse_array(array)
 array.reverse 
 
 end
+
+def kesha_marker(array)
+  new_array = []
+  new_array << array.each{ |elements| 
+end
