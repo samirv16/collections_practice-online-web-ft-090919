@@ -26,5 +26,5 @@ end
 def kesha_marker(array)
   new_array = []
   new_array << array.each{ |elements| elements[2] = "$"}
- new_array
+ 
 end
