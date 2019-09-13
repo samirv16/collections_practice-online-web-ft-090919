@@ -47,7 +47,7 @@ end
     array.collect do |word|
       if array[1] == word
         word
-      elsif
+      else
         word + "s"
     end
     end
